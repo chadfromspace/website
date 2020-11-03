@@ -12,14 +12,9 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TheBuzzardsOfFuzz.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body style="background:black">
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">TheBuzzardsOfFuzz</div>
-      </div>
+      <div id="gameContainer" style="width: 720px; height: 405px"></div>
     </div>
   </body>
 </html>
